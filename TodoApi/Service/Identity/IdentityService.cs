@@ -14,7 +14,7 @@ namespace TodoApi.Service.Identity
         private readonly SignInManager<AppUser> _signInManager = signInManager;
 
         /// <summary>
-        /// ユーザの認証情報を取得する
+        /// Get user authentication information
         /// </summary>
         /// <param name="user"></param>
         /// <returns></returns>
