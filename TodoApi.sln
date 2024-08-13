@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi.Tests", "TodoApi.Tests\TodoApi.Tests.csproj", "{8D11B4F1-5390-4523-BD0A-1ED568DF3734}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TodoApi", "TodoApi\TodoApi.csproj", "{FEFA8D67-907C-4230-87A4-9BF0FAC9D6B5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{015252BB-A1AF-4540-8A29-A8858E882650}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D11B4F1-5390-4523-BD0A-1ED568DF3734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D11B4F1-5390-4523-BD0A-1ED568DF3734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D11B4F1-5390-4523-BD0A-1ED568DF3734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D11B4F1-5390-4523-BD0A-1ED568DF3734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFA8D67-907C-4230-87A4-9BF0FAC9D6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFA8D67-907C-4230-87A4-9BF0FAC9D6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFA8D67-907C-4230-87A4-9BF0FAC9D6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFA8D67-907C-4230-87A4-9BF0FAC9D6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015252BB-A1AF-4540-8A29-A8858E882650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015252BB-A1AF-4540-8A29-A8858E882650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015252BB-A1AF-4540-8A29-A8858E882650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015252BB-A1AF-4540-8A29-A8858E882650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {656D8D19-8309-48CE-A220-90EBCF841CB7}
+	EndGlobalSection
+EndGlobal

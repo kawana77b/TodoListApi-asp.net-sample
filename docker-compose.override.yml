@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  todoapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+    ports:
+      - "3000:8080"

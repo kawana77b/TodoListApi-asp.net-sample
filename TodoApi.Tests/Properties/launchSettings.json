@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TodoApi.Tests": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
