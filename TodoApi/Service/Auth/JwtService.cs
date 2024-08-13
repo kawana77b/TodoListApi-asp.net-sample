@@ -61,7 +61,7 @@ namespace TodoApi.Service.Auth
                 .AddClaim(ClaimTypes.NameIdentifier, userId)
                 .AddClaim(ClaimTypes.Name, email);
 
-            if (roles.IsNullOrEmpty())
+            if (!roles.IsNullOrEmpty())
             {
                 jwtGenerator.AddRangeRole(roles);
             }
